@@ -125,6 +125,31 @@ The linting script checks for:
 └── README.md           # This documentation
 ```
 
+## Future Features
+
+Here are some exciting features we're considering for future releases:
+
+### Core Functionality
+- [ ] Support for posting images and media
+- [ ] Thread creation and management
+- [ ] Quote tweets and replies (not sure if this is possible!!)
+- [ ] Schedule tweets for future posting
+- [ ] Draft saving and management
+
+### User Experience
+- [ ] Dark/Light theme support
+- [ ] Rich text editor with formatting options
+- [ ] Emoji picker integration
+- [ ] Character counter with visual feedback
+- [ ] Keyboard shortcuts for quick posting
+
+### Advanced Features
+- [ ] Hashtag suggestions and trending topics
+- [ ] Auto-thread creation for long posts (incase the account does not have premium subscription)
+- [ ] Integration with other social media platforms (like Instagram, Facebook, etc.). We might need to change the name then!!
+
+Feel free to contribute to any of these features or suggest new ones!
+
 ## Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.
