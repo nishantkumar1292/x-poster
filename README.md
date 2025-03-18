@@ -1,9 +1,9 @@
-# X.com (Twitter) Poster
+# X.com Poster
 
-A simple Python application that allows you to post to X.com (Twitter) without opening the website, using the Twitter API v2.
+A simple Python application that allows you to post to X.com without opening the website, using the Twitter API v2.
 
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
-![Python](https://img.shields.io/badge/python-3.7+-blue.svg)
+![Python](https://img.shields.io/badge/python-3.8+-blue.svg)
 
 ## Features
 
@@ -15,14 +15,14 @@ A simple Python application that allows you to post to X.com (Twitter) without o
 
 ## Prerequisites
 
-- Python 3.7 or higher
-- Twitter Developer Account with API credentials (Basic tier or higher)
+- Python 3.8 or higher
+- Twitter Developer Account with API credentials
 
 ## Installation
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/yourusername/x-poster.git
+   git clone https://github.com/nishantkumar1292/x-poster.git
    cd x-poster
    ```
 
@@ -49,7 +49,7 @@ A simple Python application that allows you to post to X.com (Twitter) without o
 
 5. Edit the `.env` file with your actual Twitter API credentials.
 
-## Getting Twitter API Credentials
+## Getting X API Credentials
 
 1. Apply for a Twitter Developer account at https://developer.twitter.com/
 2. Create a new project and app
@@ -57,7 +57,11 @@ A simple Python application that allows you to post to X.com (Twitter) without o
 4. Generate API keys and tokens (you need the Bearer Token and OAuth 1.0a tokens)
 5. Copy these credentials to your `.env` file
 
-**Note:** As of 2023, Twitter requires a paid API plan to post tweets. The basic tier costs $100/month and is required for posting functionality. The free tier only allows read-only operations.
+**Note:** X API offers different tiers for API access:
+- Free tier: Allows posting up to 1,500 tweets per month
+- Basic tier ($100/month): Increases limit to 3,000 tweets per month and adds 10,000 pull requests
+- Pro tier ($5,000/month): Offers 300,000 tweets and 1,000,000 pull requests
+- Enterprise tier: Custom pricing and features
 
 ## Usage
 
