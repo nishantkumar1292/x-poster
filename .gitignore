@@ -41,3 +41,7 @@ instance/
 # OS specific
 .DS_Store
 Thumbs.db
+
+# App specific
+X Poster.app/
+xposter_log.txt
